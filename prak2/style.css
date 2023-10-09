@@ -1,0 +1,97 @@
+.container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #00076f;
+    border: solid;
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.head{
+    background: url(../gambar/furina.png);
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.tentang video{
+   width: 500px;
+   height: 300px;
+}
+
+.side{
+    margin-left: 20px;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: gold;
+}
+
+.menu{
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.tentang{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tentang h2{
+    color: blue;
+}
+
+.tentang div{
+    display: flex;
+    justify-content: center;
+}
+
+.jadwal{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.jadwal h2{
+    color: blue;
+
+}
+
+.table{
+    background-color: black;
+}
+
+.table tr{
+    background-color: black;
+    color: white;
+}
+
+.table td{
+    background-color: white;
+    color: black;
+}
+
+.form{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn{
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+}

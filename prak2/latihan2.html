@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+            <img class="img" src="../gambar/slime.jpg">
+            <div class="side">
+                <h2>Aspal</h2>
+                <p>Meta doesn't matter maen genshin penting punya karakter</p>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <li class="menu"><a href="http://siakad.itera.ac.id/">siakad</a></li>
+            <li class="menu"><a href="https://www.youtube.com/">tentang saya</a></li>
+            <li class="menu"><a href="https://github.com/Andreas11-017">github</a></li>
+        </nav>
+
+        <section class="tentang">
+            <h2>Dengan ini menyatakan kemerdekaan Indonesia</h2>
+            <p>Aspal(Andreas Pascalis), salah satu manusia yang masih berjalan di bumi indah ini. ini merupakan bentuk
+                pengerjaan tugas saya. semoga semakin jago dan bisa berguna bagi kedepannya. keseharian saya bisa dibilang
+                normal. Saya berkuliah di Itera melaksanakan kegiatan lalu pulang. saya menyempatkan waktu untuk maen sejenak
+                untuk relaksasi dan biasa belajar sebisa mungkin. dari berbagai gambar yang saya pake keliatan saya maen genshin. </p>
+            <div>       
+                <video class="tentang video" src="../video/genshin.mp4" controls></video>
+            </div>
+        </section>
+        
+        <section class="jadwal">
+            <h2>Ini Jadwal</h2>
+            <table class="table" border="1" align="center">
+            <thead>
+                <tr class="tr">
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">hari</th>
+                    <th rowspan="2">kelas</th>
+                    <th rowspan="2">kampus</th>
+                    <th rowspan="2">matkul</th>
+                    <th colspan="2">waktu</th>
+                </tr>
+                <tr>
+                    <th>mulai</th>
+                    <th>selesai</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td">1</td>
+                    <td>senin</td>
+                    <td>RB</td>
+                    <td>Itera</td>
+                    <td>intelegensi buatan</td>
+                    <td>13.00</td>
+                    <td>15.30</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">selasa</td>
+                    <td rowspan="2">RB</td>
+                    <td rowspan="2">Itera</td>
+                    <td>jarkom</td>
+                    <td>08.00</td>
+                    <td>09.30</td>
+                </tr>
+                <tr>
+                    <td>SI</td>
+                    <td>19.00</td>
+                    <td>20.30</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>rabu</td>
+                    <td>RB</td>
+                    <td>Itera</td>
+                    <td>metopen</td>
+                    <td>15.30</td>
+                    <td>17.00</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">4</td>
+                    <td rowspan="3">kamis</td>
+                    <td rowspan="3">RB</td>
+                    <td rowspan="3">Itera</td>
+                    <td>SI</td>
+                    <td>07.00</td>
+                    <td>08.30</td>
+                </tr>
+                <tr>
+                    <td>kapita</td>
+                    <td>09.00</td>
+                    <td>11.30</td>
+                </tr>
+                <tr>
+                    <td>IMK</td>
+                    <td>13.00</td>
+                    <td>14.30</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>jumat</td>
+                    <td colspan="6">kosong(mungkin)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">6</td>
+                    <td rowspan="2">sabtu</td>
+                    <td rowspan="2">RB</td>
+                    <td rowspan="2">Itera</td>
+                    <td>PemWweb</td>
+                    <td>08.00</td>
+                    <td>10.30</td>
+                </tr>
+                <tr>
+                    <td>PAM</td>
+                    <td>13.00</td>
+                    <td>15.30</td>
+                </tr>
+            </tbody>
+            <tfoot>
+    
+            </tfoot>
+        </table>
+    </section>
+
+    <section class="form">
+        <form action="jawaban.php" method="post">
+            <h2>hubungi saya</h2>
+            <label for="email">email</label>
+            <input type="text" placeholder="masukkan teks" id="email">
+            
+            <p>apakah itera mudah dicapai?</p>
+            <input type="radio" name="soal b"> iya<br>
+            <input type="radio" name="soal b"> No<br>
+            
+            <h2>Apa warna favorit? </h2>
+            <input type="checkbox" name="b" value="merah">merah <br>
+            <input type="checkbox" name="a" value="kuning">kuning <br>
+            <input type="checkbox" name="a" value="hijau">hijau <br>
+            <input type="checkbox" name="a" value="hijau"><input type="text" placeholder="masukkan teks"> <br>
+            
+            <button class="btn" type="submit">Kirim</button>
+        </form>
+    </section>
+    
+        
+    </div>
+</body>
+</html>
