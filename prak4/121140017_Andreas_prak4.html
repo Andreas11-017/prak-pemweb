@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Nama : Andreas Pascalis Tristan
+    NIM : 121140017
+    Kelas : RB -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" id="input">
+    <button onclick="myfunction()">klik</button>
+
+    <p>Hasil : </p>
+    <p id="hasil"></p>
+
+    <script>
+        function myfunction(){
+            let input = document.getElementById('input').value;
+            document.getElementById('hasil').innerHTML = input;
+        }
+    </script> -->
+
+    <!-- <p>pilih matkul</p>
+    <select id="matkul" onchange="myFunction()">
+        <option value="matkul1">Matkul 1</option>
+        <option value="matkul2">Matkul 2</option>
+        <option value="matkul3">Matkul 3</option>
+    </select>
+
+    <p>Kamu memilih : </p> -->
+    <!-- <p id="hasil" onmouseup="fungsi1()" onmousedown="fungsi2()">Halo</p>
+
+    <script>
+        function fungsi1(){
+            document.getElementById("hasil").style.color="red";
+        }
+        function fungsi2(){
+            document.getElementById("hasil").style.color="blue";
+        }
+    </script> -->
+
+    <h1>menghitung Ganjil Genap</h1>
+    <P>masukkan bilangan bulat : </P>
+    <input type="number" id="input">
+    <button onclick="ganjilGenap()">hitung</button>
+
+    <p>Ganjil : <span id="ganjil"></span></p>
+    <p>Genap : <span id="genap"></span></p>
+
+    <script>
+        function ganjilGenap(){
+            var input = document.getElementById("input").value;
+
+            var n = parseInt(input)
+
+            if(n>0){
+                var genap = 0;
+                var ganjil = 0;
+
+                for(var i=1; i<=n; i++){
+                if(i%2===0){
+                    genap++;
+                }else {
+                    ganjil++;
+                }
+            }
+            
+            document.getElementById("ganjil").textContent = ganjil;
+            document.getElementById("genap").textContent = genap;
+            }else {
+                alert("Masukkan bilangan bulat positif.")
+            }
+            
+        }
+     
+    </script>
+</body>
+</html2
